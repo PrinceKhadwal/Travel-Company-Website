@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .contact{
+            display: flex;
+            gap: 1rem;
+            color: rgb(100, 100, 100);
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        .contact .location,
+        .contact .details{
+            width: 50%;
+            height: 50rem;
+            padding: 1rem;
+            background-color: #fff;
+        }
+        img{
+            width: 90%;
+            overflow: hidden;
+        }
+        .contact .location h2{
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+        }
+        .contact .location p{
+            letter-spacing: .1rem;
+        }
+        .details h1{
+            font-size: 3rem;
+        }
+        .details p{
+            font-size: 12px;
+        }
+        .form label,
+        .form input{
+            display: block;
+            width: 100%;
+            padding: 3px;
+            font-size: 1.5rem;
+        }
+        textarea{
+            width: 100%;
+        }
+        input[type = "submit"]{
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <nav class="navbar container">
+            <h1 class="logo">WT</h1>
+            <ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html" >About</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="contact container">
+        <div class="location">
+            <div>
+                <i class="fa-3x"></i>
+                <h2>Location</h2>
+                <p>Village, city name, State name</p>
+            </div>
+            <div>
+                <i class="fa-3x"></i>
+                <h2>E-mail</h2>
+                <p>princekhadwal475@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa-3x"></i>
+                <h2>Call</h2>
+                <p>+9198825-19041</p>
+            </div>
+            <img src="./company-img.jpg">
+        </div>
+        <div class="details">
+            <h1>Contact Us</h1>
+            <p>Let us know your Questions, suggestions and concerns by filling out the contact form below.</p>
+            <form class="form">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" id="username">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="Phone">Phone</label>
+                    <input type="number" id="Phone">
+                </div>
+                <div>
+                    <label for="textbox">Message</label>
+                    <textarea id="textbox"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <a href="#" class="social-media-links"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            <a href="#" class="social-media-links"><i class="fa-brands fa-twitter fa-3x"></i></a>
+            <a href="#" class="social-media-links"><i class="fa-brands fa-instagram fa-3x"></i></a>
+        </div>
+            <div>World Travel @ 2020, All Rights Reserved</div>
+    </footer>
+</body>
+</html>
